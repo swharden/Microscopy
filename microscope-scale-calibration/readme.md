@@ -1,18 +1,18 @@
 # Miroscope Scale Calibration
 
-## Current Camera/Lens Scales (µm/px)
+## Current Camera/Lens Scales I use (µm/px)
 
 &nbsp; | 4x | 5x | 10x | 20x | 40x | 63x
 ---|---|---|---|---|---|---
-**2P-epi** | 1.6161 | | 0.64644 | 0.32365 | 0.10738 | 
-**2P-1024** |  | |  1.1765 |  0.5882 | 0.29412 | 
-**DIC1-3** |  | | 1.293 |  | 0.3214 | 
-**FL01** |  |  | |  |  | 
-**EGKepi** |  | 1.2900 | 0.65216 | 0.32608 | 0.16304 | 0.102381
+**2P epi** | 1.6161 | | 0.64644 | 0.32365 | 0.10738 | 
+**2P 1024** |  | |  1.1765 |  0.5882 | 0.29412 | 
+**DIC 1-3** |  | | 1.293 |  | 0.3214 | 
+**FL1** |  |  | |  |  | 
+**EKepi** |  | 1.2900 | 0.65216 | 0.32608 | 0.16304 | 0.102381
 
 ## Calibration Procedure
 
-* Use the calibration slide (called a _stage micrometer_)
+* Use the calibration slide (called a _stage micrometer_, [$10 on Amazon](https://www.amazon.com/s?url=search-alias%3Daps&field-keywords=stage+micrometer)
   * Small ticks = 10 microns 
   * Medium ticks = 50 microns
   * Large ticks = 100 microns

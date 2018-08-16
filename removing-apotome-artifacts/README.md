@@ -13,7 +13,7 @@ Although ApoTome artifact lines can be reduced by improving calibration, images 
 
 Image with ApoTome artifacts | Same image corrected with ImageJ
 ---|---
-![](pics/before.png) | ![](pics/after.png)
+![](pics/apotome_artifacts.png) | ![](pics/apotome_corrected.png)
 
 ## Manual Reduction of ApoTome Artifacts 
 * Open an image with ApoTome artifacts

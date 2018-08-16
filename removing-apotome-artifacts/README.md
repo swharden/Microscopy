@@ -1,6 +1,6 @@
 # Removing ApoTome Artifacts with ImageJ
 
-The [Zeiss ApoTome](http://zeiss-campus.magnet.fsu.edu/tutorials/opticalsectioning/apotome/indexflash.html) is an optical instrument which can be placed in the light path of a traditional epifluorescence microscope to reduce out-of-focus light and enhance optional sectioning. This is achieved by rapidly tilting a glass plate with a grid on it and analyzing the resulting image in real time to create an image which maximally excites and captures light at a single optical section (calculated from at least 3 raw images acquired at different tilt angles).
+The [Zeiss ApoTome](http://zeiss-campus.magnet.fsu.edu/tutorials/opticalsectioning/apotome/indexflash.html) is an optical instrument which can be placed in the light path of a traditional epifluorescence microscope to reduce out-of-focus light and enhance optional sectioning. This is achieved by illuminating the specimen through a rapidly tilting a glass plate with a grid on it and analyzing the resulting image in real time to create an image which maximally excites and captures light at a single optical section (calculated from at least 3 raw images acquired at different tilt angles).
 
 ![](pics/apotome-scope.jpg)
 ![](pics/apotome-device.png)

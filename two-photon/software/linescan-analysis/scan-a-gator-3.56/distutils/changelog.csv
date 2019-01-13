@@ -1,0 +1,95 @@
+14.01.02-21.11,linescan.py,160,listFolderScans(),adds * to end of folder nickname if scans.pkl exists
+14.01.02-21.11,linescan.py,161,listFolderScans(),adds ! to end of folder nickname if flagged file exists
+14.01.02-21.11,linescan.py,162,listFolderScans(),added functionality to only show folders with 'atLeast' scans
+14.01.02-21.11,linescan.py,249,dictLoad(),fixed bug where backslash in config file would crash eval()
+14.01.02-21.11,linescan.py,302,npContrast(),implimented numpy contrast rather than ImageChops for LS preview.
+14.01.02-21.11,linescan.py,312,imLinescanPrep(),created function to maximize contrast of linescan previews
+14.01.02-21.11,linescan.py,477,LineScan/project(),implimented 2D delta(G)/R image creation every time imProj is calculated.
+14.01.02-21.11,linescan.py,510,LineScan/flag(),created LS.flag() function
+14.01.02-21.11,linescan.py,518,LineScan/unflag(),created LS.unflag() function
+14.01.02-21.11,_STRUCTURE EDITOR.py,0,OUTSIDE,check to make sure we have the correct version of python
+14.01.02-21.11,_STRUCTURE EDITOR.py,59,LSpopulategui(),gui population now involves flagging
+14.01.02-21.11,_STRUCTURE EDITOR.py,275,LSupdateLS(),implimented channel selection on LS structure editor
+14.01.02-21.11,_STRUCTURE EDITOR.py,416,LSstructureRemove(),clear structure list after last structure is deleted
+14.01.02-21.11,_STRUCTURE EDITOR.py,466,LSdeleteSettings(),added function to clear LS settings (delete ./SAG folder)
+14.01.02-21.11,_STRUCTURE EDITOR.py,491,LSupdateCycles(),allowed graph update on selectionModel CHANGE event
+14.01.02-21.11,_STRUCTURE EDITOR.py,523,LScycleSelectionMode(),added action when selection mode button pressed
+14.01.02-21.11,_STRUCTURE EDITOR.py,656,browserDC(),when browser "../" is clicked, previous folder is highlighted.
+14.01.02-21.11,_STRUCTURE EDITOR.py,675,browserDC(),double-clicking a linescan launches the folder
+14.01.02-21.11,_STRUCTURE EDITOR.py,692,flagClicked(),made the FLAG button do something
+14.01.02-21.43,linescan.py,796,ScottPlot()/renderGraph(),fixed bug that ignored y-minimum when it is set to 0
+14.01.02-21.43,_STRUCTURE EDITOR.py,819,clearSettings(),when program launches, configure to view only linescan files
+14.01.02-21.43,_STRUCTURE EDITOR.py,845,clearSettings(),linescan image is updated with channel dropdown is CHANGEd
+14.01.03-16.39,linescan.py,100,XML_L(),made the browser show linescan date as well as time
+14.01.03-16.39,linescan.py,205,listFolderScans(),made browser list linescan hide sweep duration
+14.01.03-16.39,linescan.py,344,colorfix(),added function to convert RGBA<->BGRA
+14.01.03-16.39,linescan.py,702,LineScan/peaksGraph(),selected structure 'background' on peak plot is now different color
+14.01.03-16.39,_STRUCTURE EDITOR.py,370,LSupdateOL(),added vertical lines on LS perview for baseline and events
+14.01.03-16.39,_STRUCTURE EDITOR.py,680,checkIfConfigChanged(),added functionality to the "modified" status bar
+14.01.03-16.39,_STRUCTURE EDITOR.py,734,browserDC(),double-clicking a single image launches the folder
+14.01.03-16.39,_STRUCTURE EDITOR.py,737,browserDC(),double-clicking a Z stack launches the folder
+14.01.03-16.39,_STRUCTURE EDITOR.py,802,clearSettings(),allowed 'configuration' groupbox to be always enabled (allowing deleting of corrupted or outdated /sag/ files which may cause crashing or incomplete loading)
+14.01.03-16.39,_STRUCTURE EDITOR.py,955,clearSettings(),allow path in defaults.ini to be a list of paths. The first valid one that exists() will be used.
+14.01.04-12.04,_STRUCTURE EDITOR.py,596,LSupdateNeeded(),made the 'update' button turn red if unapplied modifications exist
+14.01.04-12.04,_STRUCTURE EDITOR.py,696,browserSelectionChanged(),implimented config file version checking.
+14.01.04-12.04,_STRUCTURE EDITOR.py,797,copyPath(),implimented copy/paste functionality for linescan features
+14.01.04-12.04,_STRUCTURE EDITOR.py,972,clearSettings(),replaced experiment label with a textbox for notes. 
+14.01.04-12.04,_STRUCTURE EDITOR.py,1028,clearSettings(),forced window to pop-up to front of stacked windows upon launch.
+14.01.04-12.34,_STRUCTURE EDITOR.py,22,OUTSIDE,version number automatically incrimented during automatic build
+14.01.04-18.59,linescan.py,222,listFolderScans(),now LS marks * and ! are not exclusive
+14.01.04-18.59,linescan.py,558,LineScan/saveEverything(),fixed bug which inserted incorrection version into LS .ini files
+14.01.04-18.59,_STRUCTURE EDITOR.py,609,browserSelectedRefresh(),allow directory XML data caching so folder data is only loaded once
+14.01.05-23.57,linescan.py,208,listFolderScans(),fixed problem where SingleImages had a " Z " label
+14.01.05-23.57,linescan.py,565,LineScan/saveEverything(),when saving linescan configuration data, structures are organized by reverse X1 value so they are re-loaded in order vertically next time.
+14.01.05-23.57,linescan.py,639,LineScan/intensity(),implimented the measurement range now. 
+14.01.05-23.57,_STRUCTURE EDITOR.py,7,OUTSIDE,added a try/except library import to prevent PyQt4-absense crases
+14.01.05-23.57,_STRUCTURE EDITOR.py,256,LSupdateGraph(),implimented LS editor view indicating average/peak of selected linescan in the measured range.
+14.01.05-23.57,_STRUCTURE EDITOR.py,265,LSupdateGraph(),shaded the "measure" region of graps as light green
+14.01.05-23.57,_STRUCTURE EDITOR.py,271,LSupdateGraph(),made vertical event markers red
+14.01.05-23.57,_STRUCTURE EDITOR.py,711,setPath(),corrected error that prevented Set Path button from refreshing list
+14.01.05-23.57,_STRUCTURE EDITOR.py,745,setPath(),allowed minimum scan count limit changes without refreshing folder
+14.01.05-23.57,_STRUCTURE EDITOR.py,950,pageLSreport(),started work on experiment design page
+14.01.05-23.57,_STRUCTURE EDITOR.py,956,pageLSexperiment(),started work on experiment design page
+14.01.05-23.57,_STRUCTURE EDITOR.py,962,pageXML(),added raw XML data viewer
+14.01.05-23.57,_STRUCTURE EDITOR.py,976,pageConfig(),added current linescan configuration (.ini) data viewer
+14.01.06-22.35,_STRUCTURE EDITOR.py,98,LSpopulategui(),automatically generate 0-10ms baseline if none defined.
+14.01.06-22.35,_STRUCTURE EDITOR.py,102,LSpopulategui(),added messagebar details from XML data (PMT gain, pockels, etc.)
+14.01.06-22.35,_STRUCTURE EDITOR.py,213,LSupdateTimes(),use gui to invent baseline if none entered
+14.01.06-22.35,_STRUCTURE EDITOR.py,232,LSupdateBlurs(),fixed bug that caused selected structure to become unselected when adjusting gaussian
+14.01.09-18.09,linescan.py,795,LineScan/peaksGraph(),if peaksGraph called, ensure projection images are available.
+14.01.09-18.09,reports.py,6,OUTSIDE,created report.py to assemble individual folder report functions
+14.01.11-17.31,linescan.py,275,listFolderScans(),used "sorted(files,key=lambda nick: nick[2])" to sort file browser list by date (as pulled from XML data)
+14.01.11-17.31,_ACTIVATOR.py,8,OUTSIDE,created standalone activation screen
+14.01.12-22.59,_STRUCTURE EDITOR.py,12,OUTSIDE,extreme modification to licensing and key generation methods
+14.01.13-15.39,compare.py,6,OUTSIDE,started compare.py to allow experimental comparison of multiple linescan experiments
+14.01.13-15.39,linescan.py,203,listFolderScans(),using file modification date for files without .XML files
+14.01.13-15.39,linescan.py,205,listFolderScans(),relying on ABF modification time, not creation time
+14.01.13-15.39,linescan.py,212,listFolderScans(),file timestamp now in localtime instead of gmtime
+14.01.13-15.39,linescan.py,292,listFolderScans(),check if 'hidden' file is in ./sag/ at file population time
+14.01.13-15.39,linescan.py,299,listFolderScans(),now folder lists are sorted appropriately in the browser
+14.01.13-15.39,linescan.py,658,LineScan/hide(),created LS.hide() function
+14.01.13-15.39,linescan.py,665,LineScan/unhide(),created LS.unhude() function
+14.01.13-15.39,linescan.py,695,LineScan/intensity(),updated config["guiBaseline"] code to properly range based on ms (not pixels).
+14.01.13-15.39,linescan.py,723,LineScan/intensity(),updated config["guiMeasure"] code to properly range Avg/Pk pixel bounds.
+14.01.13-15.39,registration.py,9,OUTSIDE,modification of PC-ID, now fully hardware based
+14.01.13-15.39,reports.py,7,OUTSIDE,added raw (where every sweep is shown) average plots for each structure.
+14.01.13-15.39,reports.py,8,OUTSIDE,added colormap to color-code sweep time
+14.01.13-15.39,_STRUCTURE EDITOR.py,487,LSupdateOL(),updated overlay (multX) code to properly range baseline/event pixel bounds.
+14.01.13-15.39,_STRUCTURE EDITOR.py,867,browserSelectionRecall(),implimented selection recall function to prevent losing selected scan while changing file display options
+14.01.13-15.39,_STRUCTURE EDITOR.py,1034,hideClicked(),added "hide" options which allow shortening of browser path names.
+14.01.13-22.52,linescan.py,1221,LineScanCompare(),added LineScaneCompare class to linescan.py
+14.01.13-22.52,registration.py,78,activator_website(),registration box now launches registration website
+14.01.13-22.52,SAG_formats.py,9,OUTSIDE,started a class for projection (and depth coding) of Zseries folders.
+14.01.13-22.52,_STRUCTURE EDITOR.py,92,fromLE(),created entire section for experiment design and linescan comparison across folders
+14.01.14-18.53,_STRUCTURE EDITOR.py,823,reloadPathForce(),added button to save 'index.pkl' to speed-up linescan folder loading
+14.01.14-23.33,structureEditor.py,917,setPath(),if a browsed folder contains at least 1 linescan, automatically make a pickel.
+14.01.24-14.51,linescan.py,56,threadCommand(),added a function to threadedly execute any dos command
+14.01.24-14.51,linescan.py,228,listFolderScans(),causing browser to show 24 hour timestamps to help for alphabetical ordering
+14.01.24-14.51,reports.py,118,reportSummaryLS(),fixed issue with colorbar having n-1 colors
+14.01.24-14.51,reports.py,119,reportSummaryLS(),rather than show time points as seconds, show it sa sweep number
+14.01.24-14.51,structureEditor.py,1234,pageZseries(),added a lot of code to allow for T-series projection viewing
+14.01.24-14.51,structureEditor.py,1256,pageTseriesSet(),added a lot of code to allow for T-series viewing
+14.01.24-14.51,structureEditor.py,1272,pageTseriesGenerate(),create 'animaged.gif' any time a tseries is converted.
+14.01.24-14.51,structureEditor.py,1280,pageTseriesPlay(),got T-series animation working.
+14.04.19-16.15,structureEditor.py,154,LSC_launch(),added R, G, dG, and dGR to charts generated by experiment.
+14.04.19-16.15,structureEditor.py,1418,clearSettings(),made default smoothing values 1 instead of 0

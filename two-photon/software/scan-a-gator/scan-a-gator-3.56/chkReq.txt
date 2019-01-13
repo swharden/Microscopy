@@ -1,0 +1,15 @@
+import sys
+
+try:
+  req_version = (3,3)
+  cur_version = sys.version_info
+  if cur_version >= req_version:
+     print("Python version verified.")
+  else:
+     print("Your Python interpreter is too old!\n")
+     print("I need at least Python %d.%d"%req_version)
+     input()
+     quit()
+except:
+  import chkReq2 #works on python 2.x
+  quit()

@@ -1,0 +1,1 @@
+The Telem-A-Gator was written and is maintained by Scott Harden and Dr. Charles Jason Frazier at the University of Florida. This version of the Telem-A-Gator is provided for limited use on a single-computer with a valid registration code. Telem-A-Gator registration codes may only be obtained from Scott Harden. For more information, e-mail SWHarden@gmail.com.

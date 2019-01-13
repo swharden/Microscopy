@@ -1,0 +1,3 @@
+print "Python 3.x is required to run this program."
+raw_input()
+quit()

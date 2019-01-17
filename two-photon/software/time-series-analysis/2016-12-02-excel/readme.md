@@ -1,6 +1,10 @@
 # Time-series Analysis with ImageJ and Excel
 This guide will walk you through how to analyze a T-series fresh off the two-photon microscope using a stock [FIJI](https://fiji.sc/) (not raw ImageJ) and Excel. No custom software is required.
 
+Note: feature-rich automated custom software has been written to streamline these tasks. Code for those projects is here: 
+Feature rich automated analysis pipelines have been created to streamline this task:
+https://github.com/swharden/ROI-Analysis-Pipeline/
+
 ![](xmlroi.PNG)
 
 ## Steps

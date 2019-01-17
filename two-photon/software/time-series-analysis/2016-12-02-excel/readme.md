@@ -1,7 +1,3 @@
-### NOTE: SWH2P is now its own project: https://github.com/swharden/SWH2P
-
----
-
 # Time-series Analysis with ImageJ and Excel
 This guide will walk you through how to analyze a T-series fresh off the two-photon microscope using a stock [FIJI](https://fiji.sc/) (not raw ImageJ) and Excel. No custom software is required.
 

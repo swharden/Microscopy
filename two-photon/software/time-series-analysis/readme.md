@@ -1,7 +1,3 @@
-# SWH2P is now its own project: https://github.com/swharden/SWH2P
-
----
-
 ### ImageJ / Excel Solution
 
 Scott [wrote a guide](2016-12-02-excel/readme.md) for how to do this
@@ -15,5 +11,3 @@ Structure | Data
 --- | ---
 ![](python/neuron.png) | ![](python/neuron.jpg)
 ![](python/astrocyte.png) | ![](python/astrocyte.jpg)
-
-

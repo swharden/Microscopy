@@ -41,4 +41,4 @@ Suggested Device(s): Dev8
 
 * This error was fixed by performing the sequence of events above.
 * However, there is a new `NI PCI-6713`, probably for the uncaging laser.
-* We identified the newer one as having a higher device ID. We renamed that one to `Dev4`
+* We identified the newer one as having a _lower_ device ID. We renamed that one to `Dev4`

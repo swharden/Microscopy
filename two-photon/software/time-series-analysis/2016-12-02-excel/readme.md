@@ -33,9 +33,9 @@ https://github.com/swharden/ROI-Analysis-Pipeline/
   * In the folder with the TIFs, the .env file will have a line `<PVStateValue key="framerate" value="1.55886096807798"` which shows the framerate. Similarly, the .xml file has a lines starting with `<Frame relativeTime="1.92448208110496"` for every image taken which show the time each image was taken. You can use these to determine the frame rate in case you forgot previously.
 
 # Analyzing Data
-* Generate excel data for the red channel and the green channel.
-* baseline subtract the entire green channel values by the average of the green channel before the stimulus. DO NOT BASELINE SUBTRACT THE RED CHANNEL!
-* Assuming in excel you have a [red] column and a [baseline subtracted green] column, create a new column [dG/R] which is simply the second column divided by the first. This is the value you will want to report in a publication.
+* Analysis formula will vary by expermient
+* Two-channel delta F/F: (green / red) / (baselineGreen/baselineRed) - 1.0
+* One-channel delta F/F0: (F / baselineF) - 1.0
 
 ## Selecting ROIs
 multi-measure was performed and all ROIs were selected. This screenshot was taking just before the ROIs were saved.

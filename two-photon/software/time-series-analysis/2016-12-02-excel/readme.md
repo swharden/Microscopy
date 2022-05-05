@@ -33,17 +33,16 @@ https://github.com/swharden/ROI-Analysis-Pipeline/
   * In the folder with the TIFs, the .env file will have a line `<PVStateValue key="framerate" value="1.55886096807798"` which shows the framerate. Similarly, the .xml file has a lines starting with `<Frame relativeTime="1.92448208110496"` for every image taken which show the time each image was taken. You can use these to determine the frame rate in case you forgot previously.
 
 # Analyzing Data
-* Analysis formula will vary by expermient
-* Two-channel delta F/F: (green / red) / (baselineGreen/baselineRed) - 1.0
-* One-channel delta F/F0: (F / baselineF) - 1.0
 
 ## Selecting ROIs
 multi-measure was performed and all ROIs were selected. This screenshot was taking just before the ROIs were saved.
 ![](rois.JPG)
 
-## Handling Data in Excel
-I separated by ROIs by neuron vs. astrocyte. I goofed on the time units though, which according to the XML document should be <1 second and not 2.2 seconds. Also note that this is just the green channel, and not the red channel, baseline-subtracted green channel, or dG/R calculated values.
+## Calculating dF/F in Excel
+Analysis formula will vary by expermient. Typically it is:
+* Two-channel delta F/F: (green / red) / (baselineGreen/baselineRed) - 1.0
+* One-channel delta F/F0: (F / baselineF) - 1.0
+
 ![](excel.JPG)
 
-## misc
 ![](tseries.JPG)
